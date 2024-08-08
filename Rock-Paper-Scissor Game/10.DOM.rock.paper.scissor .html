@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS GAME</title>
+    <link rel="stylesheet" href="10.DOM.rock.paper.scissor .css">
+</head>
+<body>
+    <p class="title">Rock Paper Scissor</p>
+    <div class="choose">
+    <!--ROCK CONTROL-->
+        <button onclick="
+         playgame('ROCK')" class="rock-img";
+        ><img src="img/rock.png" alt="Sorry!image can't be loaded" class="move-icon"></button>
+    
+    <!--PAPPER CONTROL-->
+
+        <button onclick="
+                playgame('PAPER');
+        " class="paper-img"><img src="img/paper.png" alt="Sorry!image can't be loaded" class="move-icon"></button>
+
+    <!--SCISSOR CONTROL-->
+
+        <button onclick="
+          playgame('SCISSOR');
+        "class="scissor-img"><img src="img/scissor.png" alt="Sorry!image can't be loaded" class="move-icon"></button>
+    </div>
+    
+    <p class="js-score score"></p>
+
+    <p class="js-moves"></p>
+    
+    <p class="js-result result"></p>
+    <!--RESET CONTROL-->
+        <button onclick="resetScore()
+         " class="reset-button">RESET</button>
+<!-- JS FILE -->
+    <script src="10.DOM.rock.paper.scissor .js"></script>
+      
+  
+</body>
+</html>
